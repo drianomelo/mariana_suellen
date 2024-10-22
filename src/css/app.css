@@ -1,0 +1,30 @@
+:root {
+  --clr-blue: #192432;
+  --clr-brown: #c98264;
+  --clr-white: #fff;
+  --clr-gray: #59616a;
+  --clr-black: #16202c;
+  --clr-dark: #131c27;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--clr-blue);
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  overflow-x: hidden;
+
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
