@@ -1,7 +1,9 @@
+@import url(header.css);
+
 :root {
   --clr-blue: #192432;
   --clr-brown: #c98264;
-  --clr-white: #fff;
+  --clr-white: #f8f7f3;
   --clr-gray: #59616a;
   --clr-black: #16202c;
   --clr-dark: #131c27;
@@ -18,9 +20,10 @@ html {
 }
 
 body {
-  background-color: var(--clr-blue);
+  background-color: var(--clr-white);
   font-family: "Kanit", sans-serif;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 400;
   overflow-x: hidden;
 
   width: 100%;
