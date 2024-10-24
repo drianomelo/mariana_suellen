@@ -2,10 +2,10 @@
 
 :root {
   --clr-blue: #192432;
-  --clr-brown: #c98264;
+  --clr-yellow: #fdb144;
   --clr-white: #f8f7f3;
-  --clr-gray: #59616a;
-  --clr-black: #16202c;
+  --clr-gray: #f1f0ea;
+  --clr-black: #020202;
   --clr-dark: #131c27;
 }
 
@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: var(--clr-white);
-  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   overflow-x: hidden;
