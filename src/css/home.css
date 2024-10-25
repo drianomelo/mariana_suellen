@@ -107,9 +107,34 @@
 
 .home__img {
   flex: 1;
-
-  background-color: var(--clr-yellow);
-  border-radius: 7.2rem;
-
   position: relative;
+}
+
+.home__square {
+  width: 61.5rem;
+  height: 64.5rem;
+}
+
+.teste {
+  position: absolute;
+  height: 90%;
+
+  bottom: 4px;
+  left: 150px;
+}
+
+.home__ball {
+  width: 8rem;
+  height: 8rem;
+
+  background-color: var(--clr-black);
+  border-radius: 50%;
+}
+
+.home__ball--top {
+  border: 4px solid var(--clr-white);
+
+  position: absolute;
+  top: 0;
+  right: 0;
 }
